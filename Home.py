@@ -8,8 +8,8 @@ import datetime
 import plotly.express as px
 
 st.title('Airline Satisfaction')
-st.write("""Airline Satisfaction""")
 
+st.image("united.jpg")
 def load_data():
     data = pd.read_csv('Airline Passenger Satisfaction.csv', delimiter=';')
     return data
