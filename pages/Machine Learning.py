@@ -56,8 +56,13 @@ if st.button("Entraîner le modèle de machine learning"):
         ('classifier', RandomForestClassifier(random_state=42))
     ])
 
-    # Entraînement
-    pipeline.fit(X_train, y_train)
+    # Entraînement avec barre de progression
+    progress_bar = st.progress(0)
+    n_estimators = 5
+    for i in range(1, n_estimators + 1):
+        pipeline.set_params(classifier__n_estimators=i)
+        pipeline.fit(X_train, y_train)
+        progress_bar.progress(i / n_estimators)
 
     # Prédiction de la satisfaction des passagers sur les données de test
     y_pred = pipeline.predict(X_test)
