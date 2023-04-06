@@ -1,6 +1,7 @@
 import streamlit as st
 
 st.header("Anova")
+st.text("pip install statsmodels")
 st.code("""import pandas as pd
 import scipy.stats as stats
 from sklearn.preprocessing import OneHotEncoder
