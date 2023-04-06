@@ -74,3 +74,4 @@ if st.button("Entraîner le modèle de machine learning"):
 
     # Affichage du diagramme dans Streamlit
     st.image('pipeline.png')
+    st.snow()

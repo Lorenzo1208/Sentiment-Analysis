@@ -67,8 +67,11 @@ if st.button('Prédire si le client sera satisfait'):
     # Afficher le résultat sous forme de texte
     if prediction == 0:
         st.header('Le client ne sera pas satisfait')
-    else:
+    else:   
         st.header('Le client sera satisfait')
     
     # Utilisation de la fonction metric
     st.metric(label='Prédiction', value=prediction, delta=None)
+    
+    st.info('La variable Inflight entertainment change tout 😎')
+    st.balloons()
