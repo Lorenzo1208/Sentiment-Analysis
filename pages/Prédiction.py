@@ -64,5 +64,11 @@ def predict_output(input_data):
 if st.button('Prédire si le client sera satisfait'):
     prediction = predict_output(input_fields)
     
+    # Afficher le résultat sous forme de texte
+    if prediction == 0:
+        st.header('Le client ne sera pas satisfait')
+    else:
+        st.header('Le client sera satisfait')
+    
     # Utilisation de la fonction metric
     st.metric(label='Prédiction', value=prediction, delta=None)
