@@ -61,6 +61,6 @@ def predict_output(input_data):
     return prediction[0]
 
 # Créer un bouton pour déclencher la prédiction
-if st.button('Predict'):
+if st.button('Prédire si le client sera satisfait'):
     prediction = predict_output(input_fields)
-    st.write('The predicted output is:', prediction)
+    st.write('Prédiction:', prediction)
