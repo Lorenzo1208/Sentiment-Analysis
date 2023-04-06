@@ -94,3 +94,5 @@ Total params: 1,313
 Trainable params: 1,313
 Non-trainable params: 0
 _________________________________________________________________""")
+
+st.image("output5.png")
