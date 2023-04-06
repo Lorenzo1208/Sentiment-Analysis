@@ -63,4 +63,6 @@ def predict_output(input_data):
 # Créer un bouton pour déclencher la prédiction
 if st.button('Prédire si le client sera satisfait'):
     prediction = predict_output(input_fields)
-    st.write('Prédiction:', prediction)
+    
+    # Utilisation de la fonction metric
+    st.metric(label='Prédiction', value=prediction, delta=None)
