@@ -80,23 +80,23 @@ for var in cat_vars:
         print(f"Chi-squared test for independence between {encoded_var} and Satisfaction:"
         f"P-value: {p:.4f}")""")
 
-st.text("""Chi-squared test for independence between Gender_Female and Satisfaction:
-	P-value: 0.0000
-Chi-squared test for independence between Gender_Male and Satisfaction:
-	P-value: 0.0000
-Chi-squared test for independence between Customer Type_Loyal Customer and Satisfaction:
-	P-value: 0.0000
-Chi-squared test for independence between Customer Type_disloyal Customer and Satisfaction:
-	P-value: 0.0000
-Chi-squared test for independence between Type of Travel_Business travel and Satisfaction:
-	P-value: 0.0000
-Chi-squared test for independence between Type of Travel_Personal Travel and Satisfaction:
-	P-value: 0.0000
-Chi-squared test for independence between Class_Business and Satisfaction:
-	P-value: 0.0000
-Chi-squared test for independence between Class_Eco and Satisfaction:
-	P-value: 0.0000
-Chi-squared test for independence between Class_Eco Plus and Satisfaction:
-	P-value: 0.0000""")
+st.text("""Test du Chi-carré pour l'indépendance entre Gender_Female et la satisfaction:
+	Valeur-P: 0.0000
+Test du Chi-carré pour l'indépendance entre Gender_Male et la satisfaction:
+	Valeur-P: 0.0000
+Test du Chi-carré pour l'indépendance entre Customer Type_Loyal Customer et la satisfaction:
+	Valeur-P: 0.0000
+Test du Chi-carré pour l'indépendance entre Customer Type_disloyal Customer et la satisfaction:
+	Valeur-P: 0.0000
+Test du Chi-carré pour l'indépendance entre Type of Travel_Business travel et la satisfaction:
+	Valeur-P: 0.0000
+Test du Chi-carré pour l'indépendance entre Type of Travel_Personal Travel et la satisfaction:
+	Valeur-P: 0.0000
+Test du Chi-carré pour l'indépendance entre Class_Business et la satisfaction:
+	Valeur-P: 0.0000
+Test du Chi-carré pour l'indépendance entre Class_Eco et la satisfaction:
+	Valeur-P: 0.0000
+Test du Chi-carré pour l'indépendance entre Class_Eco Plus et la satisfaction:
+	Valeur-P: 0.0000""")
 
 
