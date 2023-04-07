@@ -145,4 +145,4 @@ Trainable params: 1,313
 Non-trainable params: 0
 _________________________________________________________________""")
 
-st.image("output5.png")
+st.image("pic/output5.png")

@@ -245,7 +245,7 @@ cm = confusion_matrix(y_test, y_pred)
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=best_model.named_steps['classifier'].classes_)
 disp.plot()""")
 
-st.image("output.png")
+st.image("pic/output.png")
 
 st.header("Courbe ROC")
 
@@ -271,7 +271,7 @@ plt.title('Receiver Operating Characteristic (ROC)')
 plt.legend(loc="lower right")
 plt.show()""")
 
-st.image("output2.png")
+st.image("pic/output2.png")
 
 st.header("Cross validation")
 
@@ -300,7 +300,7 @@ plt.ylabel('Accuracy')
 plt.legend()
 plt.show()""")
 
-st.image("output3.png")
+st.image("pic/output3.png")
 
 st.header("Prédiction sur de nouvelles données")
 

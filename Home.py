@@ -9,7 +9,7 @@ import plotly.express as px
 
 st.title('Airline Satisfaction')
 
-st.image("united.jpg")
+st.image("pic/united.jpg")
 def load_data():
     data = pd.read_csv('Airline Passenger Satisfaction.csv', delimiter=';')
     return data
