@@ -3,7 +3,7 @@ import streamlit as st
 code1='''
 pip install tensorflow
 '''
-
+st.code(code1)
 st.header("Deep Learning")
 st.text("1. Importer les bibliothèques nécessaires :")
 st.code("""import pandas as pd
